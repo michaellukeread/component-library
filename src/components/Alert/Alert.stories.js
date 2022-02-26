@@ -1,8 +1,8 @@
-import Button from '.'
+import Alert from '.'
 
 export default {
-  title: 'components/Button',
-  component: Button,
+  title: 'components/Alert',
+  component: Alert,
   parameters: {
     componentSubtitle: "Alerts draw the user's attention to something",
     layout: 'centered', // or 'fullscreen' or 'padded'
@@ -11,6 +11,6 @@ export default {
   argTypes: {}
 }
 
-const Template = args => <Button {...args} />
+const Template = () => <Alert>123</Alert>
 
 export const Primary = Template.bind({})
